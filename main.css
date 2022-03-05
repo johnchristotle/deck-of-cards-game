@@ -1,0 +1,72 @@
+.deck
+{
+	width:50%;
+	margin: 20px auto;
+	background:rgb(223, 133, 231);
+	border:solid 10px rgb(46, 2, 44);
+	padding: 10px;
+	border-radius:10px;
+	text-align: center;
+	color:white;
+}
+
+.card
+{
+	padding: 10px;
+	border: solid 1px #520355;
+	background-color: white;
+	display: inline-block;
+	border-radius: 10px;
+	font-size: 14pt;
+	text-align: center;
+	color: #520355;
+	margin: 3px;
+}
+
+.btn
+{
+	    padding: 10px 40px;
+        display: inline-block;
+        text-align: center;
+        line-height: 1;
+        display: inline-block;
+        font-size: 10pt;
+        position: relative;
+        cursor: pointer;
+        transition: .5s box-shadow,.5s background;
+        background: #520355;
+        color: #fff;
+        border-radius: 5px;
+        text-decoration: none!important;
+        border: none;
+        font-weight: 700;
+    
+}
+
+.card .value{
+	font-size:15pt;
+	font-family: sans-serif;
+}
+
+.card .suit
+{
+	background-image: url(https://www.thatsoftwaredude.com/pages/9195/full-source-for-deck-of-cards);
+	height: 100px;
+	width: 90px;
+}
+
+.card .diamonds
+{
+	background-position-y: 100px;
+}
+
+.card .hearts
+{
+	background-position-x: 90px;
+}
+
+.card .clubs
+{
+	background-position-x:90px;
+	background-position-y:100px;
+}
