@@ -50,7 +50,7 @@
 
 .card .suit
 {
-	background-image: url(https://www.thatsoftwaredude.com/pages/9195/full-source-for-deck-of-cards);
+	background-image: url('card.png');
 	height: 100px;
 	width: 90px;
 }
